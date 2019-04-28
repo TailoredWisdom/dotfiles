@@ -1,0 +1,41 @@
+#
+# These things are run when an Openbox X Session is started.
+# You may place a similar script in $HOME/.config/openbox/autostart
+# to run user-specific things.
+#
+
+compton -b --config ~/.config/compton.conf &
+
+tint2 &
+#sh ~/.config/polybar/launch.sh &
+
+~/bin/wallpaper.sh
+
+#bluetooth#
+#(blueberry-tray) &
+
+# install xcape - press super to get menu
+# xcape -e 'Super_L=Super_L|space'
+
+#on laptops without seperate numeric keyboard put hashtag in front
+numlockx &
+
+## Volume control for systray
+(volumeicon) &
+
+unclutter --timeout 2 --fork
+
+## Turn off/on System Beep
+xset b off
+
+## Enable power management
+xfce4-power-manager &
+
+## XFCE4 Settings
+xfsettingsd &
+
+(nm-applet) &
+
+clight &
+
+#(temps) &

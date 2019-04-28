@@ -2,15 +2,54 @@ ColorSchemes
 
 
 Nord colorscheme
+nord0 #2E3440
+nord1 #3B4252
+nord2 #434C5E
+nord3 #4C566A
+nord4 #D8DEE9
+nord5 #E5E9F0
+nord6 #ECEFF4
+nord7 #8FBCBB
+nord8 #88C0D0
+nord9 #81A1C1
+nord10 #5E81AC
+nord11 #BF616A
+nord12 #D08770
+nord13 #EBCB8B
+nord14 #A3BE8C
+nord15 #B48EAD
 
+Solarized colorscheme
 
+Common
 
+S_yellow        #b58900
+S_orange        #cb4b16
+S_red           #dc322f
+S_magenta       #d33682
+S_violet        #6c71c4
+S_blue          #268bd2
+S_cyan          #2aa198
+S_green         #859900
 
-Solarized Light colorscheme
+Dark
 
+S_base03        #002b36
+S_base02        #073642
+S_base01        #586e75
+S_base00        #657b83
+S_base0         #839496
+S_base1         #93a1a1
+S_base2         #eee8d5
+S_base3         #fdf6e3
 
+Light
 
-Solarized Dark colorscheme
-
-
-
+S_base03        #fdf6e3
+S_base02        #eee8d5
+S_base01        #93a1a1
+S_base00        #839496
+S_base0         #657b83
+S_base1         #586e75
+S_base2         #073642
+S_base3         #002b36

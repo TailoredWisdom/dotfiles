@@ -1,0 +1,115 @@
+Config {
+    -- appearance
+      font = "xft: M+ 2p: size=12"
+    , additionalFonts = [ "xft:FontAwesome:pixelsize=14:antialias=true:hinting=true" ]
+    --, bgColor = "#2E3440"
+    , bgColor = "#2E4034"
+    -- find transparency issue
+    --, bgColor = "#000000"
+    , fgColor = "#D8DEE9"
+    , alpha = 200
+    , position = Top
+
+    -- layout
+    , sepChar = "%" -- delineator between plugin names and straight text
+    , alignSep = "}{" -- separator between left}center{right alignement
+    , template = "%battery% %multicpu% %coretemp% %memory% %wlp110s0wi% %dynnetwork% }%StdinReader%{ %CYSC% %date%  %locks% "
+
+    -- general behaviour
+    , lowerOnStart = True -- send to bottom of window stack on start
+    , hideOnStart = False -- start with window unmapped (hidden)
+    , allDesktops = True -- show on all desktops
+    , pickBroadest = False -- choose widest display (multi-monitor)
+    , persistent = True -- enable/disable hiding (True = disabled)
+
+    -- plugins
+    , commands =
+
+        -- weather monitor
+        -- rh = relative humidity, pressure = air pressure, other interesting options : station, stationStatus, visibility, skyCondition, hour
+	[ Run Weather "CYSC" [ "--template", " <fc=#5E81AC><tempC></fc>°C  <fc=#5E81AC><rh></fc>%  <fc=#5E81AC><pressure></fc>hPa  <fc=#5E81AC><windKnots></fc>kn <fc=#5E81AC><windCardinal></fc>  <skyCondition> <visibility>"
+                            ] 36000
+
+        -- network activity monitor (dynamic interface resolution)
+	, Run DynNetwork     [ "--template" , "<dev>: <tx>kB/s|<rx>kB/s"
+                             , "--Low"      , "1000"       -- units: B/s
+                             , "--High"     , "5000"       -- units: B/s
+                             , "--low"      , "#A3BE8C"
+                             , "--normal"   , "#D08770"
+                             , "--high"     , "#BF616A"
+                             ] 10
+, Run Wireless "wlp110s0" [ "--template", "<fn=1>\xf1eb</fn> <essid> <quality>%"
+                              ,"-x"             ,"-"
+                              ,"--Low"      ,"50"
+                              ,"--High"     ,"75"
+                              , "--low"      , "#BF616A"
+                              , "--normal"   , "#D08770"
+                              , "--high"     , "#A3BE8C"
+] 10
+
+	-- cpu activity monitor
+  -- autototal -> percentage per cpu core
+	, Run MultiCpu       [ "--template" , "<fn=1>\xf085</fn> <total>%"
+                             , "--Low"      , "50"         -- units: %
+                             , "--High"     , "85"         -- units: %
+                             , "--low"      , "#A3BE8C"
+                             , "--normal"   , "#D08770"
+                             , "--high"     , "#BF616A"
+                             ] 10
+
+	-- cpu core temp monitor
+	, Run CoreTemp       [ "--template" , "<fn=1>\xf2c8</fn> <core0>°C"
+                             , "--Low"      , "60"        -- units: °C
+                             , "--High"     , "70"        -- units: °C
+                             , "--low"      , "#A3BE8C"
+                             , "--normal"   , "#D08770"
+                             , "--high"     , "#BF616A"
+                             ] 50
+
+	-- memory usage monitor
+	, Run Memory         [ "--template" ,"<fn=1>\xf2db</fn> <usedratio>%"
+                             , "--Low"      , "50"        -- units: %
+                             , "--High"     , "90"        -- units: %
+                             , "--low"      , "#A3BE8C"
+                             , "--normal"   , "#D08770"
+                             , "--high"     , "#BF616A"
+                             ] 10
+
+	-- battery monitor
+	, Run Battery        [ "--template" , "<acstatus>"
+                             , "--Low"      , "10"        -- units: %
+                             , "--High"     , "80"        -- units: %
+                             , "--low"      , "#BF616A"
+                             , "--normal"   , "#D08770"
+                             , "--high"     , "#A3BE8C"
+
+                             , "--" -- battery specific options
+                                       -- discharging status
+                                       , "-o"	, "<fn=1>\xf242</fn> <left>% (<timeleft>) <watts>"
+                                       -- AC "on" status
+                                       , "-O"	, "<fn=1>\xf1e6</fn> <fc=#EBCB8B> <left>%</fc>"
+                                       -- charged status
+                                       , "-i"	, "<fn=1>\xf1e6</fn> <fc=#A3BE8C> <left>%</fc>"
+                                       , "--off-icon-pattern", "<fn=1>\xf1e6</fn>"
+                                       , "--on-icon-pattern", "<fn=1>\xf1e6</fn>"
+                             ] 50
+
+	-- time and date indicator
+  -- C strftime format
+  , Run Date "<fn=1>\xf073</fn><fc=#5E81AC> %a %_d %b %Y </fc> %Z <fn=1></fn> <fc=#8FBCBB>%H:%M:%S</fc>" "date" 10
+  -- with day and week of the year
+  --, Run Date "<fn=1>\xf073</fn><fc=#5E81AC> %a %_d %b %Y </fc>| d.%j w.%U  %Z <fn=1></fn> <fc=#8FBCBB>%H:%M:%S</fc>" "date" 10
+
+
+	-- keyboard loayout indicator
+	, Run Kbd            [ ("us(dvorak)" , "<fc=#5E81AC>DV</fc>")
+                             , ("us"         , "<fc=#BF616A>US</fc>")
+                             ]
+  , Run Locks
+  , Run StdinReader
+
+	--mpd - not compiled in atm
+
+  -- add thermalzone, diskusage, diskio, topproc, cpufreq, volume mixer, mpd, mail, window title, desktop name
+	]
+    }
