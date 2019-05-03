@@ -7,7 +7,14 @@
 
 export HISTCONTROL=ignoreboth:erasedups
 
-PS1='┌─[\u]─[\h]─[\W]\n└─╼\$ '
+source ~/.bin/git-prompt.sh
+
+export GIT_PS1_SHOWDIRTYSTATE=1
+export GIT_PS1_SHOWSTASHSTATE=1
+export GIT_PS1_SHOWUNTRACKEDFILES=1
+export GIT_PS1_SHOWUPSTREAM="verbose name git"
+
+PS1='\n┌─╼[\u@\h]╾─╼[\j][$?]╾─╼[\t]$(__git_ps1 "╾─╼[%s]╾─╼[$(git rev-parse --short HEAD 2> /dev/null)]")\n└──╼[\w]\n▶'
 
 if [ -d "$HOME/.bin" ] ;
 	then PATH="$HOME/.bin:$PATH"
@@ -22,10 +29,6 @@ alias ls='ls --color=auto'
 #dotfile management
 alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
-#fix obvious typo's
-alias cd..='cd ..'
-alias pdw="pwd"
-
 ## Colorize the grep command output for ease of use (good for log files)##
 alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
@@ -37,33 +40,8 @@ alias df='df -h'
 #merge new settings
 alias merge="xrdb -merge ~/.Xresources"
 
-# Aliases for software managment
-# pacman or pm
-alias pmsyu="sudo pacman -Syu --color=auto"
-alias pacman='sudo pacman --color auto'
-alias update='sudo pacman -Syyu'
-
-#ps
-alias ps="ps auxf"
-alias psgrep="ps aux | grep -v grep | grep -i -e VSZ -e"
-
-# yaourt keeps tmp folder cleaner than packer
-alias pks="yaourt -S --noconfirm "
-alias pksyu="yaourt -Syu --noconfirm"
-alias pksyua="yaourt -Syu  --aur --noconfirm"
-
 #grub update
 alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
-
-#improve png
-alias fixpng="find . -type f -name "*.png" -exec convert {} -strip {} \;"
-
-#get fastest mirrors in your neighborhood 
-alias mirror="sudo reflector --protocol https --latest 50 --number 20 --sort rate --save /etc/pacman.d/mirrorlist"
-alias mirrors=mirror
-
-#mounting the folder Public for exchange between host and guest on virtualbox
-alias vbm="sudo mount -t vboxsf -o rw,uid=1000,gid=1000 Public /home/$USER/Public"
 
 #shopt
 shopt -s autocd # change to named directory

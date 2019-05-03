@@ -2,9 +2,11 @@ sw_volume: 98
 audio_device_state:0:Internal Card
 audio_device_state:0:Digital Out
 audio_device_state:1:Geek Out HD Audio 1V5
-audio_device_state:1:my_fifo
-audio_device_state:1:my_fifo2
-state: stop
+audio_device_state:0:my_fifo
+audio_device_state:0:my_fifo2
+state: play
+current: 24
+time: 4.189000
 random: 0
 repeat: 0
 single: 0
@@ -13,4 +15,344 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
+song_begin: ''\''000 To Sort'\'''/Lossless Redbook/OST/Space Battleship YAMATO OST (lossless)/Space Battleship Yamato 30th Anniversary Memorial - Eternal Edition Premium/Disk01/DISK01.ape
+Range: 0-326893
+Time: 2667.200000
+AlbumArtist: 宮川 泰
+Album: 交響組曲 宇宙戦艦ヤマト （ETERNAL EDITION PREMIUM）
+Track: 01
+Title: 序曲
+Artist: 宮川 泰
+mtime: 1434556784
+song_end
+song_begin: ''\''000 To Sort'\'''/Lossless Redbook/OST/Space Battleship YAMATO OST (lossless)/Space Battleship Yamato 30th Anniversary Memorial - Eternal Edition Premium/Disk01/DISK01.ape
+Range: 326893-599600
+Time: 2667.200000
+AlbumArtist: 宮川 泰
+Album: 交響組曲 宇宙戦艦ヤマト （ETERNAL EDITION PREMIUM）
+Track: 02
+Title: 誕生
+Artist: 宮川 泰
+mtime: 1434556784
+song_end
+song_begin: ''\''000 To Sort'\'''/Lossless Redbook/OST/Space Battleship YAMATO OST (lossless)/Space Battleship Yamato 30th Anniversary Memorial - Eternal Edition Premium/Disk01/DISK01.ape
+Range: 599600-702893
+Time: 2667.200000
+AlbumArtist: 宮川 泰
+Album: 交響組曲 宇宙戦艦ヤマト （ETERNAL EDITION PREMIUM）
+Track: 03
+Title: サーシャ
+Artist: 宮川 泰
+mtime: 1434556784
+song_end
+song_begin: ''\''000 To Sort'\'''/Lossless Redbook/OST/Space Battleship YAMATO OST (lossless)/Space Battleship Yamato 30th Anniversary Memorial - Eternal Edition Premium/Disk01/DISK01.ape
+Range: 702893-867266
+Time: 2667.200000
+AlbumArtist: 宮川 泰
+Album: 交響組曲 宇宙戦艦ヤマト （ETERNAL EDITION PREMIUM）
+Track: 04
+Title: 試練
+Artist: 宮川 泰
+mtime: 1434556784
+song_end
+song_begin: ''\''000 To Sort'\'''/Lossless Redbook/OST/Space Battleship YAMATO OST (lossless)/Space Battleship Yamato 30th Anniversary Memorial - Eternal Edition Premium/Disk01/DISK01.ape
+Range: 867266-1047600
+Time: 2667.200000
+AlbumArtist: 宮川 泰
+Album: 交響組曲 宇宙戦艦ヤマト （ETERNAL EDITION PREMIUM）
+Track: 05
+Title: 出発 (たびだち)
+Artist: 宮川 泰
+mtime: 1434556784
+song_end
+song_begin: ''\''000 To Sort'\'''/Lossless Redbook/OST/Space Battleship YAMATO OST (lossless)/Space Battleship Yamato 30th Anniversary Memorial - Eternal Edition Premium/Disk01/DISK01.ape
+Range: 1047600-1183760
+Time: 2667.200000
+AlbumArtist: 宮川 泰
+Album: 交響組曲 宇宙戦艦ヤマト （ETERNAL EDITION PREMIUM）
+Track: 06
+Title: 追憶
+Artist: 宮川 泰
+mtime: 1434556784
+song_end
+song_begin: ''\''000 To Sort'\'''/Lossless Redbook/OST/Space Battleship YAMATO OST (lossless)/Space Battleship Yamato 30th Anniversary Memorial - Eternal Edition Premium/Disk01/DISK01.ape
+Range: 1183760-1455400
+Time: 2667.200000
+AlbumArtist: 宮川 泰
+Album: 交響組曲 宇宙戦艦ヤマト （ETERNAL EDITION PREMIUM）
+Track: 07
+Title: 真赤なスカーフ
+Artist: 宮川 泰
+mtime: 1434556784
+song_end
+song_begin: ''\''000 To Sort'\'''/Lossless Redbook/OST/Space Battleship YAMATO OST (lossless)/Space Battleship Yamato 30th Anniversary Memorial - Eternal Edition Premium/Disk01/DISK01.ape
+Range: 1455400-1735160
+Time: 2667.200000
+AlbumArtist: 宮川 泰
+Album: 交響組曲 宇宙戦艦ヤマト （ETERNAL EDITION PREMIUM）
+Track: 08
+Title: 決戦 ～挑戦－出撃－勝利～
+Artist: 宮川 泰
+mtime: 1434556784
+song_end
+song_begin: ''\''000 To Sort'\'''/Lossless Redbook/OST/Space Battleship YAMATO OST (lossless)/Space Battleship Yamato 30th Anniversary Memorial - Eternal Edition Premium/Disk01/DISK01.ape
+Range: 1735160-1951866
+Time: 2667.200000
+AlbumArtist: 宮川 泰
+Album: 交響組曲 宇宙戦艦ヤマト （ETERNAL EDITION PREMIUM）
+Track: 09
+Title: イスカンダル
+Artist: 宮川 泰
+mtime: 1434556784
+song_end
+song_begin: ''\''000 To Sort'\'''/Lossless Redbook/OST/Space Battleship YAMATO OST (lossless)/Space Battleship Yamato 30th Anniversary Memorial - Eternal Edition Premium/Disk01/DISK01.ape
+Range: 1951866-2153466
+Time: 2667.200000
+AlbumArtist: 宮川 泰
+Album: 交響組曲 宇宙戦艦ヤマト （ETERNAL EDITION PREMIUM）
+Track: 10
+Title: 回想
+Artist: 宮川 泰
+mtime: 1434556784
+song_end
+song_begin: ''\''000 To Sort'\'''/Lossless Redbook/OST/Space Battleship YAMATO OST (lossless)/Space Battleship Yamato 30th Anniversary Memorial - Eternal Edition Premium/Disk01/DISK01.ape
+Range: 2153466-2467333
+Time: 2667.200000
+AlbumArtist: 宮川 泰
+Album: 交響組曲 宇宙戦艦ヤマト （ETERNAL EDITION PREMIUM）
+Track: 11
+Title: 明日(あす)への希望 ～ 夢－ロマン－冒険心～
+Artist: 宮川 泰
+mtime: 1434556784
+song_end
+song_begin: ''\''000 To Sort'\'''/Lossless Redbook/OST/Space Battleship YAMATO OST (lossless)/Space Battleship Yamato 30th Anniversary Memorial - Eternal Edition Premium/Disk01/DISK01.ape
+Range: 2467333-
+Time: 2667.200000
+AlbumArtist: 宮川 泰
+Album: 交響組曲 宇宙戦艦ヤマト （ETERNAL EDITION PREMIUM）
+Track: 12
+Title: スターシャ
+Artist: 宮川 泰
+mtime: 1434556784
+song_end
+song_begin: ''\''000 To Sort'\'''/Lossless Redbook/OST/Space Battleship YAMATO OST (lossless)/Space Battleship Yamato 30th Anniversary Memorial - Eternal Edition Premium/Disk02/DISK02.ape
+Range: 0-349933
+Time: 2590.667000
+Date: 2004
+AlbumArtist: 宮川 泰
+Album: さらば宇宙戦艦ヤマト 愛の戦士たち (ETERNAL EDITION PREMIUM )
+Track: 01
+Title: 序曲
+Artist: 宮川 泰
+mtime: 1434556694
+song_end
+song_begin: ''\''000 To Sort'\'''/Lossless Redbook/OST/Space Battleship YAMATO OST (lossless)/Space Battleship Yamato 30th Anniversary Memorial - Eternal Edition Premium/Disk02/DISK02.ape
+Range: 349933-622533
+Time: 2590.667000
+Date: 2004
+AlbumArtist: 宮川 泰
+Album: さらば宇宙戦艦ヤマト 愛の戦士たち (ETERNAL EDITION PREMIUM )
+Track: 02
+Title: 白色彗星
+Artist: 宮川 泰
+mtime: 1434556694
+song_end
+song_begin: ''\''000 To Sort'\'''/Lossless Redbook/OST/Space Battleship YAMATO OST (lossless)/Space Battleship Yamato 30th Anniversary Memorial - Eternal Edition Premium/Disk02/DISK02.ape
+Range: 622533-780493
+Time: 2590.667000
+Date: 2004
+AlbumArtist: 宮川 泰
+Album: さらば宇宙戦艦ヤマト 愛の戦士たち (ETERNAL EDITION PREMIUM )
+Track: 03
+Title: アンドロメダ
+Artist: 宮川 泰
+mtime: 1434556694
+song_end
+song_begin: ''\''000 To Sort'\'''/Lossless Redbook/OST/Space Battleship YAMATO OST (lossless)/Space Battleship Yamato 30th Anniversary Memorial - Eternal Edition Premium/Disk02/DISK02.ape
+Range: 780493-996426
+Time: 2590.667000
+Date: 2004
+AlbumArtist: 宮川 泰
+Album: さらば宇宙戦艦ヤマト 愛の戦士たち (ETERNAL EDITION PREMIUM )
+Track: 04
+Title: 英雄の丘
+Artist: 宮川 泰
+mtime: 1434556694
+song_end
+song_begin: ''\''000 To Sort'\'''/Lossless Redbook/OST/Space Battleship YAMATO OST (lossless)/Space Battleship Yamato 30th Anniversary Memorial - Eternal Edition Premium/Disk02/DISK02.ape
+Range: 996426-1207893
+Time: 2590.667000
+Date: 2004
+AlbumArtist: 宮川 泰
+Album: さらば宇宙戦艦ヤマト 愛の戦士たち (ETERNAL EDITION PREMIUM )
+Track: 05
+Title: テレサよ永遠に
+Artist: 宮川 泰
+mtime: 1434556694
+song_end
+song_begin: ''\''000 To Sort'\'''/Lossless Redbook/OST/Space Battleship YAMATO OST (lossless)/Space Battleship Yamato 30th Anniversary Memorial - Eternal Edition Premium/Disk02/DISK02.ape
+Range: 1207893-1388333
+Time: 2590.667000
+Date: 2004
+AlbumArtist: 宮川 泰
+Album: さらば宇宙戦艦ヤマト 愛の戦士たち (ETERNAL EDITION PREMIUM )
+Track: 06
+Title: 想人（おもいで）
+Artist: 宮川 泰
+mtime: 1434556694
+song_end
+song_begin: ''\''000 To Sort'\'''/Lossless Redbook/OST/Space Battleship YAMATO OST (lossless)/Space Battleship Yamato 30th Anniversary Memorial - Eternal Edition Premium/Disk02/DISK02.ape
+Range: 1388333-1540066
+Time: 2590.667000
+Date: 2004
+AlbumArtist: 宮川 泰
+Album: さらば宇宙戦艦ヤマト 愛の戦士たち (ETERNAL EDITION PREMIUM )
+Track: 07
+Title: デスラー 襲撃
+Artist: 宮川 泰
+mtime: 1434556694
+song_end
+song_begin: ''\''000 To Sort'\'''/Lossless Redbook/OST/Space Battleship YAMATO OST (lossless)/Space Battleship Yamato 30th Anniversary Memorial - Eternal Edition Premium/Disk02/DISK02.ape
+Range: 1540066-1793200
+Time: 2590.667000
+Date: 2004
+AlbumArtist: 宮川 泰
+Album: さらば宇宙戦艦ヤマト 愛の戦士たち (ETERNAL EDITION PREMIUM )
+Track: 08
+Title: デスラー 孤独
+Artist: 宮川 泰
+mtime: 1434556694
+song_end
+song_begin: ''\''000 To Sort'\'''/Lossless Redbook/OST/Space Battleship YAMATO OST (lossless)/Space Battleship Yamato 30th Anniversary Memorial - Eternal Edition Premium/Disk02/DISK02.ape
+Range: 1793200-1977226
+Time: 2590.667000
+Date: 2004
+AlbumArtist: 宮川 泰
+Album: さらば宇宙戦艦ヤマト 愛の戦士たち (ETERNAL EDITION PREMIUM )
+Track: 09
+Title: デスラー 好敵手
+Artist: 宮川 泰
+mtime: 1434556694
+song_end
+song_begin: ''\''000 To Sort'\'''/Lossless Redbook/OST/Space Battleship YAMATO OST (lossless)/Space Battleship Yamato 30th Anniversary Memorial - Eternal Edition Premium/Disk02/DISK02.ape
+Range: 1977226-2136666
+Time: 2590.667000
+Date: 2004
+AlbumArtist: 宮川 泰
+Album: さらば宇宙戦艦ヤマト 愛の戦士たち (ETERNAL EDITION PREMIUM )
+Track: 10
+Title: 都市帝国
+Artist: 宮川 泰
+mtime: 1434556694
+song_end
+song_begin: ''\''000 To Sort'\'''/Lossless Redbook/OST/Space Battleship YAMATO OST (lossless)/Space Battleship Yamato 30th Anniversary Memorial - Eternal Edition Premium/Disk02/DISK02.ape
+Range: 2136666-2336266
+Time: 2590.667000
+Date: 2004
+AlbumArtist: 宮川 泰
+Album: さらば宇宙戦艦ヤマト 愛の戦士たち (ETERNAL EDITION PREMIUM )
+Track: 11
+Title: 大いなる愛
+Artist: 宮川 泰
+mtime: 1434556694
+song_end
+song_begin: ''\''000 To Sort'\'''/Lossless Redbook/OST/Space Battleship YAMATO OST (lossless)/Space Battleship Yamato 30th Anniversary Memorial - Eternal Edition Premium/Disk02/DISK02.ape
+Range: 2336266-
+Time: 2590.667000
+Date: 2004
+AlbumArtist: 宮川 泰
+Album: さらば宇宙戦艦ヤマト 愛の戦士たち (ETERNAL EDITION PREMIUM )
+Track: 12
+Title: ヤマトより愛をこめて
+Artist: 宮川 泰
+mtime: 1434556694
+song_end
+song_begin: ''\''000 To Sort'\'''/Lossless Redbook/OST/Space Battleship YAMATO OST (lossless)/Space Battleship Yamato  Song Collection/Space Battleship Yamato  Song Collection.ape
+Range: 1023866-1269093
+Time: 2776.733000
+Date: 1995
+AlbumArtist: ささきいさお
+Album: 宇宙戦艦ヤマト ソング・コレクション
+Track: 06
+Title: 島倉千代子/サーシャわが愛
+Artist: ささきいさお
+mtime: 1434556784
+song_end
+song_begin: ''\''000 To Sort'\'''/Lossless Redbook/OST/Space Battleship YAMATO OST (lossless)/Space Battleship Yamato  Song Collection/Space Battleship Yamato  Song Collection.ape
+Range: 1269093-1503693
+Time: 2776.733000
+Date: 1995
+AlbumArtist: ささきいさお
+Album: 宇宙戦艦ヤマト ソング・コレクション
+Track: 07
+Title: ささきいさお/ヤマト!!新たなる旅立ち
+Artist: ささきいさお
+mtime: 1434556784
+song_end
+song_begin: ''\''000 To Sort'\'''/Lossless Redbook/OST/Space Battleship YAMATO OST (lossless)/Space Battleship Yamato  Song Collection/Space Battleship Yamato  Song Collection.ape
+Range: 1503693-1710760
+Time: 2776.733000
+Date: 1995
+AlbumArtist: ささきいさお
+Album: 宇宙戦艦ヤマト ソング・コレクション
+Track: 08
+Title: 堀江美都子/おもかげ星
+Artist: ささきいさお
+mtime: 1434556784
+song_end
+song_begin: ''\''000 To Sort'\'''/Lossless Redbook/OST/Space Battleship YAMATO OST (lossless)/Space Battleship Yamato  Song Collection/Space Battleship Yamato  Song Collection.ape
+Range: 1710760-1964893
+Time: 2776.733000
+Date: 1995
+AlbumArtist: ささきいさお
+Album: 宇宙戦艦ヤマト ソング・コレクション
+Track: 09
+Title: ささきいさお/星に想うスターシャ
+Artist: ささきいさお
+mtime: 1434556784
+song_end
+song_begin: ''\''000 To Sort'\'''/Lossless Redbook/OST/Space Battleship YAMATO OST (lossless)/Space Battleship Yamato  Song Collection/Space Battleship Yamato  Song Collection.ape
+Range: 1964893-2157400
+Time: 2776.733000
+Date: 1995
+AlbumArtist: ささきいさお
+Album: 宇宙戦艦ヤマト ソング・コレクション
+Track: 10
+Title: ささきいさお/テレサよ永遠に
+Artist: ささきいさお
+mtime: 1434556784
+song_end
+song_begin: ''\''000 To Sort'\'''/Lossless Redbook/OST/Space Battleship YAMATO OST (lossless)/Space Battleship Yamato  Song Collection/Space Battleship Yamato  Song Collection.ape
+Range: 2157400-2380266
+Time: 2776.733000
+Date: 1995
+AlbumArtist: ささきいさお
+Album: 宇宙戦艦ヤマト ソング・コレクション
+Track: 11
+Title: 堀江美都子/愛の生命
+Artist: ささきいさお
+mtime: 1434556784
+song_end
+song_begin: ''\''000 To Sort'\'''/Lossless Redbook/OST/Space Battleship YAMATO OST (lossless)/Space Battleship Yamato  Song Collection/Space Battleship Yamato  Song Collection.ape
+Range: 2380266-2598133
+Time: 2776.733000
+Date: 1995
+AlbumArtist: ささきいさお
+Album: 宇宙戦艦ヤマト ソング・コレクション
+Track: 12
+Title: ささきいさお/愛よその日まで
+Artist: ささきいさお
+mtime: 1434556784
+song_end
+song_begin: ''\''000 To Sort'\'''/Lossless Redbook/OST/Space Battleship YAMATO OST (lossless)/Space Battleship Yamato  Song Collection/Space Battleship Yamato  Song Collection.ape
+Range: 2598133-
+Time: 2776.733000
+Date: 1995
+AlbumArtist: ささきいさお
+Album: 宇宙戦艦ヤマト ソング・コレクション
+Track: 13
+Title: ささきいさお/真赤なスカーフ
+Artist: ささきいさお
+mtime: 1434556784
+song_end
 playlist_end

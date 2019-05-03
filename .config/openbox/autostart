@@ -9,7 +9,7 @@ compton -b --config ~/.config/compton.conf &
 tint2 &
 #sh ~/.config/polybar/launch.sh &
 
-~/bin/wallpaper.sh
+~/.bin/set-wallpaper.sh
 
 #bluetooth#
 #(blueberry-tray) &
@@ -28,14 +28,10 @@ unclutter --timeout 2 --fork
 ## Turn off/on System Beep
 xset b off
 
-## Enable power management
-xfce4-power-manager &
-
-## XFCE4 Settings
-xfsettingsd &
-
 (nm-applet) &
 
 clight &
+
+(sleep 1s && xxkb) &
 
 #(temps) &
